@@ -1,6 +1,6 @@
-summa=0
-a=int(input("Ievadi skaitli 1:"))
-while a==input:
-    summa+=1
-    a=int(input("Ievadi skaitli 1:"))
-    print(summa)
+a=int(input("Ievadi skaitli:"))
+s=0
+for=i in range(1,a+1):
+    s=s+1
+
+print(s)
